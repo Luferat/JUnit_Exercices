@@ -2,6 +2,8 @@
  * Exercício:
  * 
  *  Refatore a classe "UserParts" para que todos os testes abaixo passem. 
+ *  
+ *  ATENÇÃO! Não altere nenhuma linha deste arquivo. Isso pode quebrar a aplicação.
  **/
 package net.luferat;
 
