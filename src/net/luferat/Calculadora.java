@@ -10,8 +10,6 @@ public class Calculadora {
 
 	double value1, value2;
 
-	public Calculadora() {}
-
 	public Calculadora(double val1, double val2) {
 		this.value1 = val1;
 		this.value2 = val2;
@@ -38,5 +36,3 @@ public class Calculadora {
 	}
 
 }
-
-

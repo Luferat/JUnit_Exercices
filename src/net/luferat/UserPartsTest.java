@@ -9,6 +9,8 @@ package net.luferat;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.text.ParseException;
+
 import org.junit.jupiter.api.Test;
 
 class UserPartsTest {
@@ -48,13 +50,14 @@ class UserPartsTest {
 	
 	// Obtém a idade.
 	@Test
-	void getAgeTest() {
+	void getAgeTest() throws ParseException {
 		assertEquals(42, bro.getAge());
 	}
 	
 	// Se é menor de idade.
 	@Test
-	void isMinorTest() {
+	void isMinorTest() throws ParseException {
 		assertFalse(bro.isMinor());
 	}
+
 }
